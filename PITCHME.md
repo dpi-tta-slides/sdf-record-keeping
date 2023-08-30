@@ -1,7 +1,7 @@
 ---
 marp: true
-title: Marp CLI example
-description: Hosting Marp slide deck on the web
+title: SDF - Record Keeping
+description: This lesson reviews the history of record keeping and takes a first look at database design
 theme: uncover
 transition: fade
 paginate: true
