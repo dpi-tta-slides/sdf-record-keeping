@@ -1,4 +1,4 @@
-# Software Development Foundations - Record Keeping
+# Record Keeping
 This lesson reviews the history of record keeping and takes a first look at database design.
 
 [slides](https://dpi-we.github.io/sdf-record-keeping)
