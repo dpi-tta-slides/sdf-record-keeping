@@ -186,7 +186,7 @@ A categorized list of records
     - How are the URLs named? What is indicated by each part of the URL?
     - What all information is being stored and displayed on each page?
     - If you had to design tables to store all of the information required to power that app, what would they be? What columns would they have? Think of questions.
-- Let's experiment on the whiteboard.
+- Let's experiment together.
 
 ---
 <!-- SOURCE: https://firstdraft.slides.com/ianheraty/dpi-day-1#/82 -->
