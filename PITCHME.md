@@ -124,20 +124,20 @@ A categorized list of records
 ---
 
 - This is part of the process known as **data modeling** (or "database design" or "database architecture").
-- This is usually not taught in intro courses! But, it's the most important and most challenging part of app development.
+- It's the most important and most challenging part of app development.
 - It's an art, not a science. We'll spend time every week practicing. Let's dive in!
 
 ---
 # Databases
 - A *database* is the software we use to store information.
-- It is just a set of 2D tables; don't let the fancy name throw you. It's like a spreadsheet where each table is one sheet.
+- It is just a set of tables; don't let the fancy name throw you. It's like a spreadsheet where each table is one sheet.
 - However, I don't want you to think about databases as software at all. Try to think of them as just paper, like almanacs.
 
 ---
 
 # Databases
 
-- Whatever information we need to power our applications, we need to be able to figure out a way to store it in 2D tables, as if we were storing them in paper tables.
+- Whatever information we need to power our applications, we need to be able to figure out a way to store it in tables, as if we were storing them in paper tables.
 - And whatever logic we need to solve our users' problems with that information, we have to be able to describe how we'd do it as humans, given paper tables.
 
 ---
@@ -149,9 +149,16 @@ A categorized list of records
 ---
 
 # One approach to database design
-- We figure out the main things (nouns) in our problem space and make a table for each.
+- We figure out the main things, "**nouns**", in our problem space and make a table for each.
 - We add columns to each table for each attribute of the thing we need to keep track of.
 - Our users create (or read, or update, or delete) rows.
+
+![bg right contain](./assets/table-columns-rows.webp)
+
+---
+
+# CRUD
+
 - We say "create, read, update, or delete" so often — these are the fundamental 4 operations that all user actions map to — **CRUD**.
 - 80%+ of the functionality of most SaaS applications is **CRUD**. This is what we will focus on learning how to build.
 
