@@ -14,6 +14,8 @@ A history of record keeping and a first look at database design
 ---
 # <!--fit--> The foundation of the world was the written word
 
+<!-- important to know how to read/write -->
+
 ---
 
 ![bg contain](./assets/scribe.jpeg)
@@ -29,6 +31,8 @@ A history of record keeping and a first look at database design
 ---
 
 # <!--fit--> The foundation of the world today is software
+
+<!-- important to know how to read/write software -->
 
 ---
 
@@ -83,8 +87,8 @@ A history of record keeping and a first look at database design
 
 ---
 
-- In the 17th century, English almanacs were bestsellers, second only to the Bible
-
+- English almanacs were bestsellers in the 17th century
+    - (second to the Bible)
 - An almanac is an annual publication that includes information such as:
    - weather forecasts
    - farmers' planting dates
@@ -116,12 +120,14 @@ A categorized list of records
 ![bg right contain](./assets/first-there-was-craigslist.jpeg)
 
 ---
+# Record Keeping
 
 - We keep track of this information as records in plain old tables — just like they did in almanacs in the 17th century.
 - One of the most important parts of application development is figuring out what information we need to keep track of, and a good set of tables to organize that information.
 
 
 ---
+# Data Modeling
 
 - This is part of the process known as **data modeling** (or "database design" or "database architecture").
 - It's the most important and most challenging part of app development.
@@ -130,24 +136,28 @@ A categorized list of records
 ---
 # Databases
 - A *database* is the software we use to store information.
-- It is just a set of tables; don't let the fancy name throw you. It's like a spreadsheet where each table is one sheet.
-- However, I don't want you to think about databases as software at all. Try to think of them as just paper, like almanacs.
+- It is just a set of tables
+- It's like a spreadsheet where each table is one sheet.
+- Try to think of them as just paper, like almanacs.
 
 ---
 
 # Databases
 
-- Whatever information we need to power our applications, we need to be able to figure out a way to store it in tables, as if we were storing them in paper tables.
-- And whatever logic we need to solve our users' problems with that information, we have to be able to describe how we'd do it as humans, given paper tables.
+- Whatever information we need to power our applications, we need to be able to figure out a way to store it in tables
+- Whatever logic we need to solve our users' problems, we have to be able to describe how we'd do it as humans given paper tables.
 
 ---
 
 # Databases
 - Computers are just faster at doing this
-- It will be the same operations — looking up data that's relevant to a certian user, ordering things in certain way, filtering things by certain criteria, etc.
+- It will be the same operations:
+    — looking up data that's relevant to a certian user
+    - ordering things in certain way
+    - filtering things by certain criteria
+    - etc.
 
 ---
-
 # One approach to database design
 - We figure out the main things, "**nouns**", in our problem space and make a table for each.
 - We add columns to each table for each attribute of the thing we need to keep track of.
@@ -166,8 +176,10 @@ A categorized list of records
 
 
 # Caveat #1
-- Our users actions should not trigger creating tables or columns; only rows. We, the developers, will create all tables and columns up front, when we design and deploy the application.
-- Users can **CRUD** a million rows per second if they want to. They just can't add tables or columns.
+- Our users actions should not trigger creating tables or columns; only rows.
+- We, the developers, will create all tables and columns up front, when we design and deploy the application.
+- Users can **CRUD** a million rows per second if they want to.
+- Users can't add tables or columns.
 
 ---
 
