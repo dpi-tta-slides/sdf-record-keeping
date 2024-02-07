@@ -256,6 +256,18 @@ A categorized list of records
 
 ---
 
+# Indirect associations
+
+![](./assets/movie-db-6.png)
+
+---
+
+# Indirect associations
+
+![](./assets/movie-db-7.png)
+
+---
+
 # That's all for now. 
 
 - It's an art, not a science. We'll spend time every week practicing.
