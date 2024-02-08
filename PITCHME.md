@@ -256,13 +256,13 @@ A categorized list of records
 
 ---
 
-# Indirect associations
+# Many-to-many relationship
 
 ![](./assets/movie-db-6.png)
 
 ---
 
-# Indirect associations
+# Many-to-many relationship
 
 ![](./assets/movie-db-7.png)
 
