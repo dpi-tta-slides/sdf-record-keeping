@@ -193,7 +193,7 @@ A categorized list of records
 # Must See Movies
 
 - Okay, this is all pretty abstract. Let's look at some examples.
-- Lets examine an [application](https://msm-associations-target.herokuapp.com/) that we'll build in class. It's a very simplified version of the iMDB (the Internet Movie Database).
+- Lets examine an [application](https://msm-associations.matchthetarget.com/) that we'll build in class. It's a very simplified version of the iMDB (the Internet Movie Database).
     - Click around it for a minute. Observe and identify:
     - How are the URLs named? What is indicated by each part of the URL?
     - What all information is being stored and displayed on each page?
