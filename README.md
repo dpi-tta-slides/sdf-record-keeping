@@ -1,7 +1,7 @@
 # Record Keeping
 This lesson reviews the history of record keeping and takes a first look at database design.
 
-[slides](https://dpi-we.github.io/slides-sdf-record-keeping)
+[slides](https://dpi-tta-slides.github.io/sdf-record-keeping)
 
 ## Topics
 - domain modeling
